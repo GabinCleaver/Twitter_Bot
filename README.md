@@ -1,6 +1,13 @@
 # Twitter Bot
 ❗ Un bot Twitter totalement fait en Python par moi, et en français.
 
+Il faut remplacer
+
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+
+Avec la consumer_key, consumer_secret et access_token, access_token_secret obtenus sur le site de Twitter dev portal après avoir fait un application.
+
 Fonctions:
 
   - Faire un Tweet
